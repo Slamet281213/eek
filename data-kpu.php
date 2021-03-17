@@ -48,7 +48,6 @@ function cek_ktp($nik, $kpu = 'https://data.kpu.go.id/dps2015.php') {
 		    // jika nik tidak ada di dps2015.php kita coba di ss8.php
 			if($kpu == 'https://data.kpu.go.id/dps2015.php'){
 				return cek_ktp($nik, 'https://data.kpu.go.id/ss8.php');
-				break;
 			}else{
 				$array['status'] = "error";
 				$array['pesan'] = "data tidak ada";
