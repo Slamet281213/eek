@@ -3,8 +3,8 @@
 // include data-kpu.php
 require('data-kpu.php');
 
-// memasukan NIK 
-$nik = '1234xxxxx';
+echo "masuk";
+$nik = '1871022109990004';
 	
 // menjalankan proses curl dan return array
 $data = cek_ktp($nik);
